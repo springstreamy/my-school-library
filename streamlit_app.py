@@ -11,14 +11,16 @@ cursor.execute(
         title TEXT,
         author TEXT,
         pages INTEGER
-    ),
+    )
+    """
+cursor.execute(
+    """
     CREATE TABLE IF NOT EXISTS readers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         first_name TEXT,
         last_name TEXT
     )
-
-"""
+    """
 )
 conn.commit()
 
