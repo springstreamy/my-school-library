@@ -13,6 +13,7 @@ cursor.execute(
         pages INTEGER
     )
     """
+)
 cursor.execute(
     """
     CREATE TABLE IF NOT EXISTS readers (
