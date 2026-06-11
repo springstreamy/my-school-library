@@ -11,7 +11,7 @@ cursor.execute(
         title TEXT,
         author TEXT,
         pages INTEGER
-    )
+    ),
     CREATE TABLE IF NOT EXISTS readers (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         first_name TEXT,
